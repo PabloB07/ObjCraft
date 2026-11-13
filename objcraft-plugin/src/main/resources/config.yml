@@ -1,0 +1,75 @@
+general:
+  debug: false
+  # Supported languages: es_ES and en_EN. Change this value and run /objcraft reload.
+  language: es_ES
+  check-updates: true
+
+compatibility:
+  paper: true
+  folia: true
+  strict-version-check: true
+
+renderer:
+  mode: hybrid
+  particle:
+    enabled: true
+    default-type: DUST
+    surface-density: 0.8
+    max-particles-per-player: 1500
+    max-particles-per-update: 250
+    update-interval: 2
+  vertex:
+    enabled: true
+    max-vertices: 10000
+  edge:
+    enabled: true
+    samples-per-block: 8
+  display:
+    enabled: true
+    use-block-display: true
+    use-item-display: true
+  surface:
+    max-displays: 2500
+    material: BROWN_CONCRETE
+  block:
+    enabled: true
+    allow-world-modification: false
+
+optimization:
+  lod:
+    enabled: true
+    distances: [16, 32, 64]
+  culling:
+    enabled: true
+  cache:
+    enabled: true
+    max-models: 100
+  render-budget:
+    enabled: true
+    adaptive-quality: true
+
+animation:
+  enabled: true
+  default-fps: 20
+  max-fps: 30
+  interpolation: linear
+  cache-frames: true
+  limits:
+    max-frames: 500
+    max-vertices-per-frame: 100000
+
+storage:
+  directory: models/
+  cache-directory: cache/
+
+importer:
+  max-file-size-bytes: 67108864
+  max-vertices: 1000000
+  max-faces: 500000
+  max-polygon-size: 64
+
+resource-pack:
+  host: 0.0.0.0
+  port: 9100
+  public-url: ""
+  required: false

@@ -1,0 +1,10 @@
+prefix: "<gradient:#00D4FF:#7B2FFF><bold>ObjCraft</bold></gradient> <dark_gray>»</dark_gray>"
+
+messages:
+  no-permission: "<red>You do not have permission to run this command.</red>"
+  player-only: "<red>This command can only be executed in-game.</red>"
+  model-imported: "<green>Model <white><model></white> imported successfully.</green>"
+  model-not-found: "<red>Model <white><model></white> was not found.</red>"
+  model-spawned: "<green>Model spawned successfully.</green>"
+  animation-started: "<green>Animation <white><animation></white> started.</green>"
+  unsupported-version: "<red>Unsupported server version.</red>"

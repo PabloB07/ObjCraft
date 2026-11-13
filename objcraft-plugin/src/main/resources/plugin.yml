@@ -1,0 +1,46 @@
+name: ObjCraft
+version: "0.2.0"
+main: com.objcraft.plugin.ObjCraftPlugin
+api-version: "1.21"
+description: Single-plugin OBJ, glTF, and GLB mesh renderer with an automatically delivered resource pack.
+authors:
+  - blancocl
+folia-supported: true
+commands:
+  objcraft:
+    description: Import and display OBJ models.
+    usage: /objcraft <help|reload|list|import|spawn|remove|edit|sit>
+permissions:
+  objcraft.admin:
+    description: Administrative access.
+    default: op
+  objcraft.import:
+    description: Import OBJ models.
+    default: op
+  objcraft.spawn:
+    description: Spawn models.
+    default: true
+  objcraft.remove:
+    description: Remove model instances.
+    default: true
+  objcraft.reload:
+    description: Reload models and rebuild the resource pack.
+    default: op
+  objcraft.edit:
+    description: Edit spawned model transforms and seat offsets.
+    default: op
+  objcraft.sit:
+    description: Sit on a spawned model.
+    default: true
+  objcraft.animation:
+    description: Manage animations.
+    default: true
+  objcraft.renderer:
+    description: Change renderer mode.
+    default: true
+  objcraft.preview:
+    description: Preview models.
+    default: true
+  objcraft.stats:
+    description: View plugin stats.
+    default: true

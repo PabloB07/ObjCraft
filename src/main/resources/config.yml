@@ -1,0 +1,33 @@
+general:
+  debug: false
+  language: es_ES
+  check-updates: true
+
+compatibility:
+  paper: true
+  folia: true
+  strict-version-check: true
+
+import:
+  max-file-size-mb: 32
+  max-vertices: 500000
+  max-faces: 500000
+  max-materials: 256
+
+geometry:
+  default-strategy: voxelization
+  voxel-resolution: 32
+  max-resolution: 128
+  greedy-meshing: true
+
+renderer:
+  type: display
+  interpolation: true
+  cleanup-on-unload: true
+  persist-instances: true
+
+resource-pack:
+  enabled: true
+  auto-generate: true
+  auto-send: true
+  compression: true

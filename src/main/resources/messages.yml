@@ -1,0 +1,12 @@
+prefix: "<gradient:#00D4FF:#7B2FFF><bold>ObjCraft</bold></gradient> <dark_gray>»</dark_gray>"
+
+messages:
+  no-permission: "<red>No tienes permisos para ejecutar este comando.</red>"
+  player-only: "<red>Este comando solo puede ejecutarse dentro del juego.</red>"
+  model-imported: "<green>Modelo <white><model></white> importado correctamente.</green>"
+  model-not-found: "<red>No se encontró el modelo <white><model></white>.</red>"
+  pack-generated: "<green>Resource Pack generado correctamente.</green>"
+  invalid-model: "<red>El archivo OBJ no es válido.</red>"
+  loading: "<yellow>Procesando modelo <white><model></white>...</yellow>"
+  folia-detected: "<green>Servidor Folia detectado.</green>"
+  unsupported-version: "<red>Esta versión de Minecraft no está soportada.</red>"

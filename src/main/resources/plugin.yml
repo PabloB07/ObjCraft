@@ -1,0 +1,30 @@
+name: ObjCraft
+version: "0.1.0-F1"
+main: com.objcraft.ObjCraftPlugin
+api-version: "1.21"
+description: ObjCraft Phase 1 compatibility scaffold.
+authors:
+  - blancocl
+folia-supported: true
+permissions:
+  objcraft.admin:
+    description: Administrative access for ObjCraft.
+    default: op
+  objcraft.import:
+    description: Import OBJ models.
+    default: op
+  objcraft.spawn:
+    description: Spawn imported models.
+    default: true
+  objcraft.remove:
+    description: Remove instances.
+    default: true
+  objcraft.reload:
+    description: Reload configuration.
+    default: op
+  objcraft.pack:
+    description: Generate and manage the resource pack.
+    default: op
+  objcraft.preview:
+    description: Preview models.
+    default: true
